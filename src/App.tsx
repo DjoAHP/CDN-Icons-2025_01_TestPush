@@ -47,11 +47,11 @@ function App() {
             {showCDN ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
             Show CDN Link
           </button>
-          
+
           {showCDN && (
             <div className="mt-2 p-4 bg-gray-900/50 rounded-lg border border-gray-700/50">
               <code className="text-sm text-blue-300">
-                {`<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@yourusername/icon-library@1.0.0/dist/style.css" />`}
+                {`<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@jodevahp/ahp-icons-library-2025/dist/index.css" />`}
               </code>
             </div>
           )}
@@ -60,7 +60,10 @@ function App() {
         {/* Barre de recherche et filtres */}
         <div className="flex gap-4 mb-6">
           <div className="flex-1 relative">
-            <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" size={18} />
+            <Search
+              className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"
+              size={18}
+            />
             <input
               type="text"
               placeholder="Rechercher une icône..."
@@ -75,8 +78,10 @@ function App() {
             className="bg-gray-900/50 border border-gray-700/50 rounded-lg px-4 py-2 text-sm focus:outline-none focus:border-blue-500/50 transition-colors"
           >
             <option value="">Toutes les catégories</option>
-            {categories.map(category => (
-              <option key={category} value={category}>{category}</option>
+            {categories.map((category) => (
+              <option key={category} value={category}>
+                {category}
+              </option>
             ))}
           </select>
         </div>
@@ -98,7 +103,10 @@ function App() {
                 {copiedId === id ? (
                   <Check size={16} className="text-green-400" />
                 ) : (
-                  <Copy size={16} className="text-gray-400 hover:text-gray-200" />
+                  <Copy
+                    size={16}
+                    className="text-gray-400 hover:text-gray-200"
+                  />
                 )}
               </button>
             </div>
