@@ -42,4 +42,12 @@ function App() {
 
 MIT
 -------
-PUSH:
+## PUSH:
+
+```bash
+npm run build
+git add .
+git commit -m "commit"
+git push -u origin main
+npm version patch
+npm publish --access public
