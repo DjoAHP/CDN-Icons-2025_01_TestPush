@@ -25,7 +25,7 @@ function App() {
   });
 
   const copyIconId = (id: string) => {
-    navigator.clipboard.writeText(`custom-icon-${id}`);
+    navigator.clipboard.writeText(`ahp-icon-${id}`);
     setCopiedId(id);
     setTimeout(() => setCopiedId(null), 2000);
   };
