@@ -5,22 +5,28 @@ Une collection d'icônes SVG modernes pour vos projets web.
 ## Installation
 
 ### NPM
+
 ```bash
 npm install @yourusername/icon-library
 ```
 
 ### CDN
+
 ```html
 <!-- Via jsDelivr -->
-<script src="https://cdn.jsdelivr.net/npm/@yourusername/icon-library@1.0.0/dist/index.umd.js"></script>
-<link href="https://cdn.jsdelivr.net/npm/@yourusername/icon-library@1.0.0/dist/style.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/@jodevahp/ahp-icons-library-2025@1.0.3/dist/index.umd.js"></script>
+<link
+  href="https://cdn.jsdelivr.net/npm/@jodevahp/ahp-icons-library-2025@1.0.3/dist/index.css"
+  rel="stylesheet"
+/>
 ```
 
 ## Utilisation
 
 ### React
+
 ```jsx
-import { StarIcon, HeartIcon } from '@yourusername/icon-library';
+import { StarIcon, HeartIcon } from "@jodevahp/ahp-icons-library-2025@1.0.3";
 
 function App() {
   return (
@@ -33,15 +39,16 @@ function App() {
 ```
 
 ### HTML
+(ahp-icon-...)
 ```html
-<i class="icon-library-star"></i>
-<i class="icon-library-heart"></i>
+<i class="ahp-icon-star"></i> 
+<i class="ahp-icon-heart"></i>
 ```
 
 ## Licence
 
-MIT
--------
+## MIT
+
 ## PUSH:
 
 ```bash
@@ -51,3 +58,4 @@ git commit -m "commit"
 git push -u origin main
 npm version patch
 npm publish --access public
+```
