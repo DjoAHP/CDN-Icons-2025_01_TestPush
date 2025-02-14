@@ -39,10 +39,11 @@ function App() {
 ```
 
 ### HTML
+
 (ahp-icon-...)
+
 ```html
-<i class="ahp-icon-star"></i> 
-<i class="ahp-icon-heart"></i>
+<i class="ahp-icon-star"></i> <i class="ahp-icon-heart"></i>
 ```
 
 ## Licence
