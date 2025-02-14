@@ -1,6 +1,6 @@
 {
   "name": "@jodevahp/ahp-icons-library-2025",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Une bibliothèque d'icônes SVG personnalisée",
   "type": "module",
   "main": "dist/index.js",
