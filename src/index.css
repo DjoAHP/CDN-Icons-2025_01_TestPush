@@ -6,6 +6,21 @@ body {
   background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
 }
 
+.custom-container {
+ 
+  max-width: 110rem;  /* Gere la largaur du container global  */
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(31, 41, 55, 0.3);
+  backdrop-filter: blur(16px);
+  border-radius: 0.75rem;
+  border: 1px solid rgba(55, 65, 81, 0.5);
+  padding: 1.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+
 ::-webkit-scrollbar {
   width: 8px;
 }

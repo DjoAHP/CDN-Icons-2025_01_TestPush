@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { StarIcon, HeartIcon, HomeIcon, NewIcon,  MuteIcon, CloudcIcon, } from './icons';
+import { StarIcon, HeartIcon, HomeIcon, NewIcon,  MuteIcon, CloudcIcon, CloudrIcon, CloudExport, CloudlIcon, CloudImport, CloudNot, CloudSun, CloudvIcon } from './icons';
 import { ChevronDown, ChevronUp, Search, Copy, Check } from 'lucide-react';
 
 const icons = [
@@ -7,8 +7,18 @@ const icons = [
   { id: 'heart', component: HeartIcon, category: 'Interface' },
   { id: 'home', component: HomeIcon, category: 'Navigation' },
   { id: 'new', component: NewIcon, category: 'Interface' },
-  { id: 'mute', component: MuteIcon, category: 'Interface' },
-  { id: 'cloudc', component: CloudcIcon, category: 'Interface' },
+  { id: 'mute', component: MuteIcon, category: 'Multimedia' },
+  { id: 'cloud-c', component: CloudcIcon, category: 'Cloud' },
+  { id: 'cloud-l', component: CloudlIcon, category: 'Cloud' },
+  { id: 'cloud-r', component: CloudrIcon, category: 'Cloud' },
+  { id: 'cloud-export', component: CloudExport, category: 'Cloud' },
+  { id: 'cloud-import', component: CloudImport, category: 'Cloud' },
+  { id: 'cloud-not', component: CloudNot, category: 'Cloud' },
+  { id: 'cloud-sun', component: CloudSun, category: 'Cloud' },
+  { id: 'cloud-v', component: CloudvIcon, category: 'Cloud' },
+
+  
+  
 ];
 
 const categories = [...new Set(icons.map(icon => icon.category))];
@@ -34,9 +44,9 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-900 text-white p-6">
       {/* Container principal avec effet glassmorphism */}
-      <div className="max-w-6xl mx-auto bg-gray-800/30 backdrop-blur-lg rounded-xl border border-gray-700/50 p-6 shadow-xl">
+      <div className="custom-container">
         <h1 className="text-3xl font-bold mb-6 text-center bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-          Icon Library
+        IcOnes LiBrArY AHP
         </h1>
 
         {/* Section CDN avec toggle */}
@@ -88,7 +98,7 @@ function App() {
         </div>
 
         {/* Grille d'icônes */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-10 gap-3">
           {filteredIcons.map(({ id, component: Icon }) => (
             <div
               key={id}
