@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { StarIcon, HeartIcon, HomeIcon, NewIcon, MuteIcon } from './icons';
+import { StarIcon, HeartIcon, HomeIcon, NewIcon,  MuteIcon, CloudcIcon, } from './icons';
 import { ChevronDown, ChevronUp, Search, Copy, Check } from 'lucide-react';
 
 const icons = [
@@ -8,6 +8,7 @@ const icons = [
   { id: 'home', component: HomeIcon, category: 'Navigation' },
   { id: 'new', component: NewIcon, category: 'Interface' },
   { id: 'mute', component: MuteIcon, category: 'Interface' },
+  { id: 'cloudc', component: CloudcIcon, category: 'Interface' },
 ];
 
 const categories = [...new Set(icons.map(icon => icon.category))];

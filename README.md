@@ -43,15 +43,24 @@ function App() {
 (ahp-icon-...)
 
 ```html
-<i class="ahp-icon-star"></i> <i class="ahp-icon-heart"></i>
+<i class="ahp-icon-star"></i> 
+<i class="ahp-icon-heart"></i>
 ```
 
 ## Licence
 
 ## MIT
+-----
+## Processus
 
-## PUSH:
+# 1. Ajout icones:
+1. Créer le fichier tsx pour l' icone SVG ( ./icons).
+2. style.css (Noms intégration_ex: "ahp-icon-heart")
+3. index.ts (Export)
+4. App.tsx (Noms ID icons)
+-----
 
+# 2. PUSH:
 ```bash
 npm run build
 git add .
