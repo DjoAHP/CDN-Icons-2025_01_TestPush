@@ -14,11 +14,11 @@ export default function IntegrationModal({
   const [copiedReact, setCopiedReact] = React.useState(false);
 
   const htmlCode = `<link
-  href="https://cdn.jsdelivr.net/npm/@jodevahp/ahp-icons-library-2025@1.0.3/dist/index.css"
+  href="https://cdn.jsdelivr.net/npm/@jodevahp/ahp-icons-library-2025@1.0.9/dist/index.css"
   rel="stylesheet"
 />`;
 
-  const reactCode = `import { StarIcon, HeartIcon } from "@jodevahp/ahp-icons-library-2025@1.0.3";`;
+  const reactCode = `import { StarIcon, HeartIcon } from "@jodevahp/ahp-icons-library-2025@1.0.9";`;
 
   const copyToClipboard = async (text: string, type: "html" | "react") => {
     await navigator.clipboard.writeText(text);
