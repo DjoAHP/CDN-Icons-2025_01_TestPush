@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Navbar from "./components/Navbar";
 import { StarIcon, HeartIcon, HomeIcon, NewIcon,  MuteIcon, CloudcIcon, CloudrIcon, CloudExport, CloudlIcon, CloudImport, CloudNot, CloudSun, CloudvIcon } from './icons';
 import { ChevronDown, ChevronUp, Search, Copy, Check } from 'lucide-react';
 
@@ -42,6 +43,9 @@ function App() {
   };
 
   return (
+    <>
+    {/* NAVBAR  */}
+    <Navbar />
     <div className="min-h-screen bg-gray-900 text-white p-6">
       {/* Container principal avec effet glassmorphism */}
       <div className="custom-container">
@@ -125,6 +129,7 @@ function App() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 
