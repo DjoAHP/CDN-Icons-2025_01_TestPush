@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Code } from "lucide-react";
 import IntegrationModal from "./IntegrationModal";
-import logo from "../images/logo02.png"; // Assure-toi que le chemin est correct
+import logo from "../assets/images/logo02.png"; // Assure-toi que le chemin est correct
 
 export default function Navbar() {
   const [isModalOpen, setIsModalOpen] = useState(false);
