@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 // navbar 
 import Navbar from "./components/Navbar";
 // icons 
-import { StarIcon, HeartIcon, HomeIcon, NewIcon, MuteIcon, CloudcIcon, CloudrIcon, CloudExport, CloudlIcon, CloudImport, CloudNot, CloudSun, CloudvIcon, AddwIcon, AddwtIcon, SourieaIcon, SouriebIcon, CollapseaIcon, ExpandaIcon, CollapsebIcon, ExpandbIcon, CollapsecIcon, ExpandcIcon, TerreaIcon, AnalyseaIcon, LterminalIcon, PterminalIcon, QraIcon, QrbIcon, LoupeaIcon, LoupemIcon, LoupepIcon, JoysaIcon } from './icons';
+import { StarIcon, HeartIcon, HomeIcon, NewIcon, MuteIcon, CloudcIcon, CloudrIcon, CloudExport, CloudlIcon, CloudImport, CloudNot, CloudSun, CloudvIcon, AddwIcon, AddwtIcon, SourieaIcon, SouriebIcon, CollapseaIcon, ExpandaIcon, CollapsebIcon, ExpandbIcon, CollapsecIcon, ExpandcIcon, TerreaIcon, AnalyseaIcon, LterminalIcon, PterminalIcon, QraIcon, QrbIcon, LoupeaIcon, LoupemIcon, LoupepIcon, JoysaIcon, AhpLogoIcon } from './icons';
 // lucide 
 import { ChevronDown, ChevronUp, Search, Copy, Check } from 'lucide-react';
 
@@ -42,7 +42,7 @@ const icons = [
   { id: 'loupe-plusa', component: LoupepIcon, category: 'Window' },
   // JEUX VIDEO 
    // UTILITY 
-   { id: 'Joys01', component: JoysaIcon, category: 'Jeux Videos' },
+   { id: 'Joys03', component: JoysaIcon, category: 'Jeux Videos' },
   // WORLD 
   { id: 'terre01', component: TerreaIcon, category: 'World' },
   // UTILITY 
@@ -52,6 +52,8 @@ const icons = [
   // TERMINAL
   { id: 'lterminal', component: LterminalIcon, category: 'Terminal' },
   { id: 'pterminal', component: PterminalIcon, category: 'Terminal' },
+  // LOGO 
+  { id: 'ahplogo3', component: AhpLogoIcon, category: 'Logo' },
 
 
 ];

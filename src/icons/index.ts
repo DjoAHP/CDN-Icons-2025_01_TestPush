@@ -33,6 +33,7 @@ export { default as LoupeaIcon } from './LoupeaIcon';
 export { default as LoupemIcon } from './LoupemIcon';
 export { default as LoupepIcon } from './LoupepIcon';
 export { default as JoysaIcon } from './JoysaIcon';
+export { default as AhpLogoIcon } from './AhpLogoIcon';
 
 
 
