@@ -5,7 +5,7 @@
   height: 24px;
   -webkit-mask-size: cover;
   mask-size: cover;
-  background-color: currentColor;
+  background-color: transparent;
   /* Use background-color instead of stroke */
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;

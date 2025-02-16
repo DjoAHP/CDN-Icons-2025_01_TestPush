@@ -1,7 +1,7 @@
 import React from 'react';
 import { IconProps } from '../types';
 
-const JoysaIcon: React.FC<IconProps> = ({ size = 24, color = 'bleu', ...props }) => (
+const JoysaIcon: React.FC<IconProps> = ({ size = 24, color = 'currentColor', ...props }) => (
   <svg
     id="mute"
     xmlns="http://www.w3.org/2000/svg"
