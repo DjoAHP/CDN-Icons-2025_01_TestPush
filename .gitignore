@@ -1,4 +1,7 @@
 # Dependencies
+.bolt
+.vscode
+dist
 node_modules
 .pnp
 .pnp.js
